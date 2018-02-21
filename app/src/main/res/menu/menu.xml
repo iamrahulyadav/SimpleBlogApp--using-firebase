@@ -4,12 +4,16 @@
 
     <item
         android:id="@+id/ClickIcon"
-        android:title="Add post"
         android:icon="@drawable/ic_add_black_24dp"
+        android:title="Add post"
         app:showAsAction="always"/>
     <item
         android:id="@+id/SettingsMenu"
         android:title="Settings"
         app:showAsAction="never"/>
+    <item
+        android:id="@+id/LogOut_option"
+        android:title="Log Out"
+        app:showAsAction="never" />
 
 </menu>

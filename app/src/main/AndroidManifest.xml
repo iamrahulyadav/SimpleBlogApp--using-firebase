@@ -3,6 +3,7 @@
     package="com.somesh.myproject.android.simpleblogapp">
 
     <application
+        android:name=".SimpleBlogApp"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -16,7 +17,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".PostActivity"></activity>
+        <activity android:name=".PostActivity" />
+        <activity android:name=".RegisterActivity"></activity>
     </application>
 
 </manifest>
